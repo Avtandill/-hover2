@@ -1,0 +1,62 @@
+@font-face {
+    font-family: inter;
+    src: url("fonts/Inter-Regular.ttf");
+}
+
+.registration {
+    width: 378px;
+    height: 274px;
+    margin: auto;
+    margin-top: 142px;
+    background-color: #F5F5F5;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+}
+.reg-center {
+    margin-left: 31px;
+    margin-top: 31px;
+}
+
+.inputs {
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+.inputs:hover {
+    border: 1px solid #BBB400;
+    border-radius: 4px;
+}
+.input::placeholder {
+    color: #9E9E9E;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: inter;
+}
+
+.labels {
+    color: #616161;
+    font-size: 16px;
+    font-family: inter;
+    font-weight: 500;
+}
+
+.button {
+    width: 315px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFD43A;
+    margin-top: 8px;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 15px;
+}
+.button:hover {
+    background-color: #BBB400;
+    color: #7C0000;
+    font-size: 20px;
+}
